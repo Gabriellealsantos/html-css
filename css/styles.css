@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-red: #f03c42;
+  --color-gray: #cccccc;
+  --color-blue: #222374;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+header {
+  padding: 40px;
+  background-color: var(--color-red);
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.title-ds h1 {
+  color: var(--color-white);
+  font-size: 18px;
+}
+
+.title-description {
+  color: var(--color-white);
+  font-size: 14px;
+  padding: 10px;
+}
+
+.title-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-img {
+  display: flex;
+  align-items: center;
+}
+
+#space {
+  background-color: var(--color-blue);
+  padding-bottom: 40px;
+}
+
+.space-title {
+  color: var(--color-white);
+  font-size: 32px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.space-card {
+  display: flex;
+  padding: 10px;
+}
+
+.space-card-description {
+  background-color: var(--color-gray);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.space-card h3 {
+  color: var(--color-black);
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.space-card p {
+  color: var(--color-black);
+  font-size: 14px;
+}
+
+#modalities {
+  background-color: var(--color-white);
+  padding-bottom: 40px;
+}
+
+.modalities-title {
+  padding-left: 10px;
+  color: var(--color-red);
+  font-size: 32px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.modalities-card {
+  display: flex;
+  padding: 10px;
+  display: block;
+}
+
+.modalities-card-description {
+  background-color: var(--color-blue);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modalities-card-description h3 {
+  color: var(--color-white);
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.modalities-card-description p {
+  color: var(--color-white);
+  font-size: 14px;
+}
+
+footer {
+  height: 262px;
+  background-color: var(--color-black);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-distric a {
+  color: var(--color-white);
+  font-size: 14px;
+}
+
+.footer-distric address {
+  color: var(--color-white);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.title-img-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.title-img-footer-tw {
+  display: flex;
+  justify-content: center;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
